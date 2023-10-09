@@ -25,6 +25,11 @@ img {
     max-width: 100%;
 }
 
+.wrapper-70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 .header {
     height: 70px;
@@ -36,6 +41,7 @@ img {
 /* HERO */
 .hero {
     background-color: var(--hero-about-btns-bgcol);
+    color: var(--bs-white);
 }
 
 /* PORTFOLIO */
@@ -73,4 +79,20 @@ img {
     background-color: var(--6thcard-bgcol);
     /* debug */
     height: 100%;
+}
+
+
+/* ABOUT */
+.about {
+    background-color: var(--hero-about-btns-bgcol);
+    color: var(--bs-white);
+}
+
+/* FORM CONTACT */
+
+
+/* COMPANY INFORMATIONS */
+.company-info {
+    background-color: var(--contacts-bgcol);
+    color: var(--bs-white);
 }
