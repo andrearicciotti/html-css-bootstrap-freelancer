@@ -96,3 +96,11 @@ img {
     background-color: var(--contacts-bgcol);
     color: var(--bs-white);
 }
+
+
+/* FOOTER */
+.footer {
+    height: 70px;
+    background-color: var(--header-footer-bgcol);
+    color: var(--bs-white);
+}
