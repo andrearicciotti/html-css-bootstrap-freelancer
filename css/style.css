@@ -1,0 +1,23 @@
+:root {
+    --header-footer-bgcol: #303d4e;
+    --hero-about-btns-bgcol: #58b99d;
+    --contacts-bgcol: #40536b;
+    --1stcard-bgcol:#ad5264;
+    --2ndcard-bgcol: #4ea1b3;
+    --3rdcard-bgcol: #130f0f;
+    --4thcard-bgcol: #3f81bc;
+    --5thcard-bgcol: #1a37ae;
+    --6thcard-bgcol: #c8b3a5;
+}
+
+/* COMMON */
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: var(--header-footer-bgcol);
+}
