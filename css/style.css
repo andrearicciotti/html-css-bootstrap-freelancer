@@ -25,6 +25,16 @@ img {
     max-width: 100%;
 }
 
+input:focus-visible {
+    outline-offset: 0;
+    outline: none;
+}
+
+.ms_transition-none {
+    box-shadow: none !important;
+    border-color: lightgrey !important;
+}
+
 .wrapper-70 {
     width: 70%;
     margin: 0 auto;
@@ -53,6 +63,7 @@ img {
 .ms_navbar-toggler-icon {
     filter: invert();
 }
+
 
 /* MAIN */
 /* HERO */
@@ -97,7 +108,17 @@ img {
     color: var(--bs-white);
 }
 
+
 /* FORM CONTACT */
+.ms_contacts {
+    color: var(--header-footer-bgcol);
+}
+
+.ms_btn-form {
+    background-color: var(--hero-about-btns-bgcol);
+    color: white;
+    border-color: transparent;
+}
 
 
 /* COMPANY INFORMATIONS */
@@ -106,6 +127,13 @@ img {
     color: var(--bs-white);
 }
 
+.ms_textarea-height {
+    height: 140px !important;
+}
+
+.ms_input-black {
+    color: black;
+}
 
 /* FOOTER */
 .ms_footer {
