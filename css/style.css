@@ -10,15 +10,6 @@
     --6thcard-bgcol: #c8b3a5;
 }
 
-/* DEBUG */
-[class*="container"] {
-    border: 1px solid red;
-}
-
-/* [class*="col-"] {
-    border: 2px solid green;
-    min-height: 150px;
-} */
 
 /* COMMON */
 img {
@@ -135,9 +126,24 @@ input:focus-visible {
     color: black;
 }
 
+.ms_custom-brands {
+    width: 30px;
+    aspect-ratio: 1/1;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    vertical-align: middle;
+    padding-top: .5rem;
+    font-size: .8rem;
+}
+
 /* FOOTER */
 .ms_footer {
     height: 70px;
     background-color: var(--header-footer-bgcol);
     color: var(--bs-white);
+}
+
+.ms_link-primary-col {
+    color: var(--hero-about-btns-bgcol);
 }
