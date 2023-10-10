@@ -15,10 +15,10 @@
     border: 1px solid red;
 }
 
-[class*="col-"] {
+/* [class*="col-"] {
     border: 2px solid green;
     min-height: 150px;
-}
+} */
 
 /* COMMON */
 img {
@@ -67,7 +67,7 @@ img {
 
 .ms_inline-hr {
     display: inline-block;
-    width: 20%;
+    width: 15vw;
     height: 7px;
     border-top: 3px solid white;
     border-radius: 2px;
@@ -83,7 +83,7 @@ img {
 
 .ms_hr-dark {
     border-top: 3px solid var(--header-footer-bgcol);
-    width: 17%;
+    width: 15vw;
 }
 
 .ms_card-img {
