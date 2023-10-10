@@ -30,52 +30,84 @@ img {
     margin: 0 auto;
 }
 
+.fs-7 {
+    font-size: 0.75rem !important;
+}
+
 /* HEADER */
-.header {
-    height: 70px;
+.ms_header {
+    height: 60px;
     width: 100%;
     background-color: var(--header-footer-bgcol);
 }
 
+.ms_navbar, .ms_navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+
+.ms_navbar-toggler {
+    border-color: white;
+}
+
+.ms_navbar-toggler-icon {
+    filter: invert();
+}
+
 /* MAIN */
 /* HERO */
-.hero {
+.ms_hero {
     background-color: var(--hero-about-btns-bgcol);
     color: var(--bs-white);
 }
 
+.ms_avatar-img {
+    width: 50%;
+}
+
+.ms_inline-hr {
+    display: inline-block;
+    width: 20%;
+    height: 7px;
+    border-top: 3px solid white;
+    border-radius: 2px;
+    color: white;
+    font-weight: 900;
+    opacity: 1;
+}
+
 /* PORTFOLIO */
-.card1 {
+.ms_card1 {
     background-color: var(--1stcard-bgcol);
     /* debug */
     height: 100%;
 }
 
-.card2 {
+.ms_card2 {
     background-color: var(--2ndcard-bgcol);
     /* debug */
     height: 100%;
 }
 
-.card3 {
+.ms_card3 {
     background-color: var(--3rdcard-bgcol);
     /* debug */
     height: 100%;
 }
 
-.card4 {
+.ms_card4 {
     background-color: var(--4thcard-bgcol);
     /* debug */
     height: 100%;
 }
 
-.card5 {
+.ms_card5 {
     background-color: var(--5thcard-bgcol);
     /* debug */
     height: 100%;
 }
 
-.card6 {
+.ms_card6 {
     background-color: var(--6thcard-bgcol);
     /* debug */
     height: 100%;
@@ -83,7 +115,7 @@ img {
 
 
 /* ABOUT */
-.about {
+.ms_about {
     background-color: var(--hero-about-btns-bgcol);
     color: var(--bs-white);
 }
@@ -92,14 +124,14 @@ img {
 
 
 /* COMPANY INFORMATIONS */
-.company-info {
+.ms_company-info {
     background-color: var(--contacts-bgcol);
     color: var(--bs-white);
 }
 
 
 /* FOOTER */
-.footer {
+.ms_footer {
     height: 70px;
     background-color: var(--header-footer-bgcol);
     color: var(--bs-white);
