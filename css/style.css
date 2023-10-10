@@ -77,40 +77,17 @@ img {
 }
 
 /* PORTFOLIO */
-.ms_card1 {
-    background-color: var(--1stcard-bgcol);
-    /* debug */
-    height: 100%;
+.ms_portfolio {
+    color: var(--header-footer-bgcol);
 }
 
-.ms_card2 {
-    background-color: var(--2ndcard-bgcol);
-    /* debug */
-    height: 100%;
+.ms_hr-dark {
+    border-top: 3px solid var(--header-footer-bgcol);
+    width: 17%;
 }
 
-.ms_card3 {
-    background-color: var(--3rdcard-bgcol);
-    /* debug */
-    height: 100%;
-}
-
-.ms_card4 {
-    background-color: var(--4thcard-bgcol);
-    /* debug */
-    height: 100%;
-}
-
-.ms_card5 {
-    background-color: var(--5thcard-bgcol);
-    /* debug */
-    height: 100%;
-}
-
-.ms_card6 {
-    background-color: var(--6thcard-bgcol);
-    /* debug */
-    height: 100%;
+.ms_card-img {
+    border-radius: 10px;
 }
 
 
